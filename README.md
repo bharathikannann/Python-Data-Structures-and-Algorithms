@@ -1,4 +1,4 @@
-# Data Structures and Algorithms using Python
+# Data Structures and Algorithms using Python <!-- omit in toc -->
 
 This is my repository for Data Structures and Algorithms using Python. All the implementations are for learning and researching purposes only.
 
@@ -13,10 +13,20 @@ More precisely, a data structure is a collection of data values, the relationshi
 > Algorithm is a finite sequence of well-defined, computer-implementable instructions, typically to solve a class of specific problems or to perform a computation.
 
 Algorithms are always unambiguous and are used as specifications for performing calculations, data processing, automated reasoning, and other tasks.
+ -->
+# Table of Contents <!-- omit in toc -->
+- [Linked List](#linked-list)
+- [Stack](#stack)
+- [Queue](#queue)
+- [Hash Table](#hash-table)
+- [Heap](#heap)
+- [Trie](#trie)
+- [Tree](#tree)
+- [Dynamic Programming](#dynamic-programming)
+- [Searches](#searches)
+- [Sorting](#sorting)
 
-# Available Data structures and Algorithms -->
-
-## Linked List
+# Linked List
 
 - [Linked List](linked_list/linked_list.py)  
   - <details>
