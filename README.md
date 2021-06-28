@@ -18,7 +18,7 @@ Algorithms are always unambiguous and are used as specifications for performing 
 
 ## Linked List
 
-- [linked_list.py](linked_list/linked_list.py)  
+- [Linked List](linked_list/linked_list.py)  
   - <details>
     <summary>Available Methods</summary>
     
@@ -45,7 +45,7 @@ Algorithms are always unambiguous and are used as specifications for performing 
     </details>
 <span></span> 
 
-- [doubly_linked_list.py](linked_list/doubly_linked_list.py)  
+- [Doubly Linked List](linked_list/doubly_linked_list.py)  
   - <details>
     <summary>Available Methods</summary>
 
@@ -59,9 +59,9 @@ Algorithms are always unambiguous and are used as specifications for performing 
     </details>
 <span></span>
 
-- [merge_two_sorted_linked_list.py](linked_list/merge_two_sorted_linked_lists.py)
-- [reverse_linked_list.py](linked_list/reversing_linked_list.py)
-- [rotating_linked_list.py](linked_list/rotating_linked_list.py)
+- [Merge two sorted linked list](linked_list/merge_two_sorted_linked_lists.py)
+- [Reverse linked list](linked_list/reversing_linked_list.py)
+- [Rotate linked list](linked_list/rotating_linked_list.py)
   - <details>
     <summary>Available Methods</summary>
 
@@ -70,20 +70,20 @@ Algorithms are always unambiguous and are used as specifications for performing 
     </details>
 <span></span> 
 
-- [sorting_linked_list.py](linked_list/sorting_linked_list.py)
+- [Sort linked list](linked_list/sorting_linked_list.py)
 
 # Stack
 
-- [stack.py](stack/stack.py)
+- [Stack](stack/stack.py)
 
 # Queue
 
-- [queue.py](queue/queue.py)
+- [Queue](queue/queue.py)
 
 # Tree
 
-- [tree.py](trees/tree.py)
-- [binary_search_tree.py](trees/binary_search_tree.py)
+- [Tree](trees/tree.py)
+- [Binary Search Tree](trees/binary_search_tree.py)
   - <details>
     <summary>Available Methods</summary>
 
@@ -121,4 +121,4 @@ Algorithms are always unambiguous and are used as specifications for performing 
     </details>
 <span></span> 
 
-- [avl_tree.py](trees/avl_tree.py)
+- [AVL Tree](trees/avl_tree.py)
