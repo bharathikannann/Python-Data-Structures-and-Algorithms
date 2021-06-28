@@ -18,8 +18,7 @@ Algorithms are always unambiguous and are used as specifications for performing 
 
 ## Linked List
 
-- [linked_list.py](linked_list/linked_list.py)
-  
+- [linked_list.py](linked_list/linked_list.py)  
   - <details>
     <summary>Available Methods</summary>
     
@@ -44,9 +43,9 @@ Algorithms are always unambiguous and are used as specifications for performing 
     - rotateCloclwise() 
     - show()
     </details>
-<span style="margin-top=1%"></span>
-- [doubly_linked_list.py](/linked_list/doubly_linked_list.py)
-  
+<span></span> 
+
+- [doubly_linked_list.py](linked_list/doubly_linked_list.py)  
   - <details>
     <summary>Available Methods</summary>
 
@@ -58,10 +57,9 @@ Algorithms are always unambiguous and are used as specifications for performing 
     - reversePrint() 
     - show()
     </details>
-<span style="margin-top=1%"></span>
+<span></span>
 
 - [merge_two_sorted_linked_list.py](linked_list/merge_two_sorted_linked_lists.py)
-<span style="margin-top=1%"></span>
 - [reverse_linked_list.py](linked_list/reversing_linked_list.py)
 - [rotating_linked_list.py](linked_list/rotating_linked_list.py)
   - <details>
@@ -70,7 +68,7 @@ Algorithms are always unambiguous and are used as specifications for performing 
     - rotateClockwise()
     - rotateAntiClocwise()
     </details>
-<span style="margin-top=1%"></span>
+<span></span> 
 
 - [sorting_linked_list.py](linked_list/sorting_linked_list.py)
 
@@ -86,7 +84,6 @@ Algorithms are always unambiguous and are used as specifications for performing 
 
 - [tree.py](trees/tree.py)
 - [binary_search_tree.py](trees/binary_search_tree.py)
-  
   - <details>
     <summary>Available Methods</summary>
 
@@ -122,6 +119,6 @@ Algorithms are always unambiguous and are used as specifications for performing 
     - spiralOrder() 
     - sum()
     </details>
-<span style="margin-top=1%"></span>
+<span></span> 
 
 - [avl_tree.py](trees/avl_tree.py)
