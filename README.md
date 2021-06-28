@@ -3,7 +3,7 @@
 This is my repository for *Data Structures and Algorithms using Python*. All the implementations are for learning and researching purposes only.
 
 Bharathi kannan
-[Portfolio](https://bharathikannann.github.io/)<br>
+<a href="https://bharathikannann.github.io/" target="_blank">Portfolio</a><br>
 Keep coding! :)
 <!-- # Data Structures
 
