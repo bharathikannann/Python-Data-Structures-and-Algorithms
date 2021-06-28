@@ -1,7 +1,10 @@
 # Data Structures and Algorithms using Python <!-- omit in toc -->
 
-This is my repository for Data Structures and Algorithms using Python. All the implementations are for learning and researching purposes only.
+This is my repository for *Data Structures and Algorithms using Python*. All the implementations are for learning and researching purposes only.
 
+Bharathi kannan
+[Portfolio](https://bharathikannann.github.io/)<br>
+Keep coding! :)
 <!-- # Data Structures
 
 > A data structure is a particular way of organizing and storing data in a computer so that it can be accessed and modified efficiently.
