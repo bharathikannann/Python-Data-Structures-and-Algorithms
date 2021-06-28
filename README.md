@@ -19,6 +19,7 @@ Algorithms are always unambiguous and are used as specifications for performing 
 ## Linked List
 
 - [linked_list.py](linked_list/linked_list.py)
+  
   - <details>
     <summary>Available Methods</summary>
     
@@ -44,8 +45,8 @@ Algorithms are always unambiguous and are used as specifications for performing 
     - show()
     </details>
 <span style="margin-top=1%"></span>
-
 - [doubly_linked_list.py](/linked_list/doubly_linked_list.py)
+  
   - <details>
     <summary>Available Methods</summary>
 
@@ -85,6 +86,7 @@ Algorithms are always unambiguous and are used as specifications for performing 
 
 - [tree.py](trees/tree.py)
 - [binary_search_tree.py](trees/binary_search_tree.py)
+  
   - <details>
     <summary>Available Methods</summary>
 
@@ -121,3 +123,5 @@ Algorithms are always unambiguous and are used as specifications for performing 
     - sum()
     </details>
 <span style="margin-top=1%"></span>
+
+- [avl_tree.py](trees/avl_tree.py)
