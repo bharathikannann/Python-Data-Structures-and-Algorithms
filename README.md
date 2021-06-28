@@ -80,6 +80,26 @@ Algorithms are always unambiguous and are used as specifications for performing 
 
 - [Queue](queue/queue.py)
 
+# Hash Table
+
+- [Hash Table](hashing/hash_table.py)
+  
+# Heap
+
+- [Heap](heaps/heap.py)
+
+# Trie
+
+- [Trie](trie/trie.py)
+  - <details>
+    <summary>Available Methods</summary>
+
+    - add()
+    - search()
+    - show()
+    </details>
+<span></span> 
+
 # Tree
 
 - [Tree](trees/tree.py)
@@ -122,3 +142,28 @@ Algorithms are always unambiguous and are used as specifications for performing 
 <span></span> 
 
 - [AVL Tree](trees/avl_tree.py)
+
+# Dynamic Programming
+
+- [Edit distance](dynamic_programming/edit_distance.py)
+- [Egg drop](dynamic_programming/egg_drop.py)
+- [Fibanocci sequence](dynamic_programming/fibanocci_sequence.py)
+- [Generate parenthesis](dynamic_programming/generate_parenthesis.py) 
+- [Kadane algorithm](dynamic_programming/kadane_algorithm.py)
+- [Knapsack 0/1](dynamic_programming/knapsack01.py) 
+- [Longest common subsequence](dynamic_programming/longest_common_subsequence.py)
+- [Min no of coins](dynamic_programming/min_no_of_coins.py)
+- [Range sum query](dynamic_programming/range_sum_query.py)
+
+# Searches
+
+- [Linear search](searching/linear_search.py)
+- [Binary search](searching/binary_search.py)
+
+# Sorting
+
+- [Bubble sort](sorting/bubble_sort.py)
+- [Insertion sort](sorting/insertion_sort.py)
+- [Merge Sort](sorting/merge_sort.py)
+- [Quick sort](sorting/quick_sort.py)
+- [Selection sort](sorting/selection_sort.py)
