@@ -1,6 +1,6 @@
-# ### Author: [BHARATHI KANNAN N](https://github.com/bharathikannann)
+# Author: BHARATHI KANNAN N - Github: https://github.com/bharathikannann, linkedin: https://linkedin.com/in/bharathikannann 
 # 
-# <big>Merging Two Sorted Linked lists</big><br>
+# Merging Two Sorted Linked lists
 # Merge sort algorithm
 class Node():
     def __init__(self, data, next=None):

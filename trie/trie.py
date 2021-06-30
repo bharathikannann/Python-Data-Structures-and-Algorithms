@@ -9,6 +9,7 @@ class Trie:
     def __init__(self):
         self.root = TrieNode("*")   # Root node 
     
+    # ------------------------------------------------------------------------------------------    
     # Add words to trie
     def add(self, word):
         curr_node = self.root   # Keep track of current node
@@ -18,6 +19,7 @@ class Trie:
             curr_node =  curr_node.children[letter]
         curr_node.is_end_of_word = True   # Mark as end of word
     
+    # ------------------------------------------------------------------------------------------
     # Search elements in trie
     def search(self, word):
         if word == "":   # Empty string always exists
@@ -29,7 +31,8 @@ class Trie:
             curr_node = curr_node.children[letter] # Update current node
         return curr_node.is_end_of_word
     
-    # TO display all words in trie
+    # ------------------------------------------------------------------------------------------
+    # Display all words in trie
     def show(self, node, word):
         if node.is_end_of_word:   # If end of word print the word
             print(word, end =" ")

@@ -1,18 +1,8 @@
-# ### Author: [BHARATHI KANNAN N](https://github.com/bharathikannann)
+# Author: BHARATHI KANNAN N - Github: https://github.com/bharathikannann, linkedin: https://linkedin.com/in/bharathikannann 
 # 
 # ## Doubly Linked List
 # - A doubly linked list is a linked data structure that consists of a set of sequentially linked records called nodes. Each node contains three fields: two link fields (references to the previous and to the next node in the sequence of nodes) and one data field.
 # - The two node links allow traversal of the list in either direction. 
-# 
-# ### Available methods
-# 
-# - insertAtFirst()
-# - insertAtLast()
-# - insertAtPosition()
-# - show()
-# - delete()
-# - length()
-# - reversePrint()
 
 #Structure of the node for our doubly linked list
 class Node(object):

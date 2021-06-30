@@ -1,9 +1,7 @@
-# ### Author: [BHARATHI KANNAN N](https://github.com/bharathikannann)
+# Author: BHARATHI KANNAN N - Github: https://github.com/bharathikannann, linkedin: https://linkedin.com/in/bharathikannann 
 # 
 # ### Queue
-# 
 # A queue is a collection of entities that are maintained in a sequence and can be modified by the addition of entities at one end of the sequence and the removal of entities from the other end of the sequence.
-# 
 # The operation of adding an element to the rear of the queue is known as `enqueue`, and the operation of removing an element from the front is known as `dequeue`.
 
 #Structure of the node for our linked list
@@ -19,7 +17,7 @@ class Queue:
         self.front = self.rear = None
         # Size for our queue
         self.size = 0
-        
+    # ------------------------------------------------------------------------------------------    
     def enqueue(self, data):
         # Create new node
         newNode = Node(data)
@@ -34,7 +32,7 @@ class Queue:
         self.rear = self.rear.next
         # Increment size
         self.size += 1
-        
+    # ------------------------------------------------------------------------------------------    
     def dequeue(self):
         # If queue is empty
         if(self.rear == None):

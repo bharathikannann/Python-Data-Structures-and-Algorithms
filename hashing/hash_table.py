@@ -10,7 +10,7 @@ class HashTable:
         for char in key:
             hash += ord(char)   # Ord returns the ASCII value of character
         return hash % self.size # Mod of total hash vs size is the final hash
-    
+    # ------------------------------------------------------------------------------------------
     # https://docs.python.org/3/reference/datamodel.html#emulating-container-types
     # By using __setitem__, __delitem__, __getitem__ we can easily work with hash objects
     def __setitem__(self, key, val):
@@ -22,13 +22,13 @@ class HashTable:
                 found = True
         if not found:                                 # If not found append at last
             self.arr[h].append((key, val))
-    
+    # ------------------------------------------------------------------------------------------
     def __delitem__(self, key):
         h = self.get_hash(key)
         for idx, element in enumerate(self.arr[h]):   # Find the position in sepearte chains and delete at that position
             if element[0] == key:
                 del self.arr[h][idx]
-                
+    # ------------------------------------------------------------------------------------------            
     def __getitem__(self, key):
         h = self.get_hash(key)
         for element in self.arr[h]:

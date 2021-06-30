@@ -50,7 +50,7 @@ class BinarySearchTree:
             return self
         self.__postorder(self.root)
         print()
-
+    # ------------------------------------------------------------------------------------------    
     # Insert the data in a BST
     def __insert(self, data):
         newNode = Node(data)
@@ -73,8 +73,7 @@ class BinarySearchTree:
                         break
                     else:                   
                         temp = temp.right   # Go right
-    
-    # For inserting list of values
+
     def insert(self, values):
         if isinstance(values, int): # Only one element is added
             return self.__insert(values)
@@ -82,6 +81,7 @@ class BinarySearchTree:
             self.__insert(value)
         return self
     
+    # ------------------------------------------------------------------------------------------
     # Return true if an element exists
     def search(self, data):
         if self.root == None: # If root is none
@@ -97,7 +97,8 @@ class BinarySearchTree:
             if temp == None:   # Fully traversed and not found
                 return False
             return True
-        
+
+    # ------------------------------------------------------------------------------------------        
     # Sum of all the values
     def __sum(self, root):
         if(root is None):
@@ -108,7 +109,8 @@ class BinarySearchTree:
     def sum(self):
         return self.__sum(self.root)
     
-    # Difference of even and odd nodes
+    # ------------------------------------------------------------------------------------------
+    # Difference of even and odd rows
     def __getDiffEvenOddRows(self, root):
         if root is None:
             return 0
@@ -119,6 +121,7 @@ class BinarySearchTree:
     def getDiffEvenOddRows(self):
         return self.__getDiffEvenOddRows(self.root)
     
+    # ------------------------------------------------------------------------------------------
     # No of nodes in the tree
     def __noOfNodes(self, root):
         if root is None:
@@ -129,6 +132,8 @@ class BinarySearchTree:
     def noOfNodes(self):
         return self.__noOfNodes(self.root)
     
+    # ------------------------------------------------------------------------------------------
+    # Number of leaf nodes
     def __noOfLeafNodes(self, root):
         if root is None:
             return 0
@@ -139,6 +144,8 @@ class BinarySearchTree:
     def noOfLeafNodes(self):
         return self.__noOfLeafNodes(self.root)
     
+    # ------------------------------------------------------------------------------------------
+    # Height of the tree
     def __height(self, root):
         if root is None:
             return -1  # -1 because height starts from 0
@@ -147,7 +154,8 @@ class BinarySearchTree:
     def height(self):
         return self.__height(self.root)
     
-    # Print values by level, Root node is level 1
+    # ------------------------------------------------------------------------------------------
+    # Print values by level order, Root node is level 1
     def __levelOrderTraversal(self, root):
         if(root is None):
             return
@@ -164,7 +172,8 @@ class BinarySearchTree:
             
     def levelOrderTraversal(self):
         return self.__levelOrderTraversal(self.root)        
-        
+
+    # ------------------------------------------------------------------------------------------    
     # Print values only at a certain level
     def  __printAtGivenLevel(self, root, level):
         if root is None:
@@ -179,6 +188,8 @@ class BinarySearchTree:
         print()
         return self
     
+    # ------------------------------------------------------------------------------------------
+    # Level order traversal in reverse
     def __reverseLevelOrderTraversal(self, root):
         if root is None:
             return
@@ -199,6 +210,8 @@ class BinarySearchTree:
     def reverseLevelOrderTraversal(self):
         return self.__reverseLevelOrderTraversal(self.root)
     
+    # ------------------------------------------------------------------------------------------
+    # Level order traversal line by line
     def __levelOrderTraversalLineByLine(self, root):
         if root == None:
             return
@@ -219,6 +232,8 @@ class BinarySearchTree:
     def levelOrderTraversalLineByLine(self):
         return self.__levelOrderTraversalLineByLine(self.root) 
     
+    # ------------------------------------------------------------------------------------------
+    # Left side of the tree
     def __leftSideOfTree(self, root):
         if root is None: 
             return
@@ -230,6 +245,8 @@ class BinarySearchTree:
         print()
         return self
     
+    # ------------------------------------------------------------------------------------------
+    # Right side of the tree
     def __rightSideOfTree(self, root):
         if root is None:
             return
@@ -241,6 +258,8 @@ class BinarySearchTree:
         print()
         return
     
+    # ------------------------------------------------------------------------------------------
+    # Inorder traversal using stack
     def inorderUsingStack(self):
         if self.root == None:
             return
@@ -268,7 +287,9 @@ class BinarySearchTree:
                               6
                 '''
         print()
-                    
+
+    # ------------------------------------------------------------------------------------------
+    # Mirror the tree                
     def __mirrorTree(self, root):
         if root == None:
             return
@@ -281,6 +302,8 @@ class BinarySearchTree:
     def mirrorTree(self):
         return self.__mirrorTree(self.root)
     
+    # ------------------------------------------------------------------------------------------
+    # Delete the entire tree
     def __delete(self, root):
         if root is None:
             return None
@@ -291,10 +314,14 @@ class BinarySearchTree:
     
     def delete(self):
         self.root = self.__delete(self.root)   # Change the root because it is a global variable
-        
+
+    # ------------------------------------------------------------------------------------------
+    # Checks empty or not    
     def empty(self):
         return self.root is None   # If root is none
     
+    # ------------------------------------------------------------------------------------------
+    # Two trees are identical or not
     def __isIdentical(self, node1, node2):
         if node1 == None and node2 == None:   # If both nodes are empty
             return True
@@ -306,6 +333,8 @@ class BinarySearchTree:
     def isIdentical(self, bst1, bst2):
         return self.__isIdentical(bst1.root, bst2.root)
     
+    # ------------------------------------------------------------------------------------------
+    # Get level of data
     def __getLevelOfNode(self, root, data, level):
         if root is None:   
             return 0
@@ -321,6 +350,8 @@ class BinarySearchTree:
     def getLevelOfNode(self, data):
         return self.__getLevelOfNode(self.root, data, 1)   # Start at level 1
     
+    # ------------------------------------------------------------------------------------------
+    # Print leaf nodes
     def __printLeaves(self, root):
         if root is not None:
             if root.left is None and root.right is None:   # If both child nodes are none
@@ -333,6 +364,8 @@ class BinarySearchTree:
         print()
         return self
     
+    # ------------------------------------------------------------------------------------------
+    # Sum of all data in each level
     def levelWiseSum(self):
         if self.root is None:
             return
@@ -356,6 +389,8 @@ class BinarySearchTree:
             print("Level-" + str(level) + " sum is " + str(lsum))
         return self
     
+    # ------------------------------------------------------------------------------------------
+    # Search using recursion
     def __recursiveSearch(self, root, data):
         if root is None:
             return False
@@ -367,6 +402,8 @@ class BinarySearchTree:
     def recursiveSearch(self, data):
         return self.__recursiveSearch(self.root, data)
     
+    # ------------------------------------------------------------------------------------------
+    # Print in spiral order
     def spiralOrder(self):
         if self.root is None:
             print("Tree is empty")
@@ -390,6 +427,8 @@ class BinarySearchTree:
                 if node.right is not None:
                     s1.append(node.right)
 
+    # ------------------------------------------------------------------------------------------
+    # Print data between any two levels
     def printBetweenTwoLevels(self, a, b):
         if self.root == None:
             return
@@ -412,6 +451,8 @@ class BinarySearchTree:
             level += 1   # Increment level
             print()
 
+    # ------------------------------------------------------------------------------------------
+    # Get maximum width of the tree
     def maxWidth(self):
         if self.root == None:
             return
@@ -433,6 +474,8 @@ class BinarySearchTree:
                 count -= 1
         return w
     
+    # ------------------------------------------------------------------------------------------
+    # If two trees are mirror ot not
     def __ifMirrorTree(self, root1, root2):
         if root1 is None and root2 is None:   # If both root is none return true
             return True
@@ -443,6 +486,8 @@ class BinarySearchTree:
     def ifMirrorTree(self, n1, n2):
         return self.__ifMirrorTree(n1.root, n2.root)
     
+    # ------------------------------------------------------------------------------------------
+    # If two trees are mirror structure or not
     def __ifMirrorStructureTree(self, root1, root2):
         if root1 is None and root2 is None:
             return True
@@ -453,6 +498,8 @@ class BinarySearchTree:
     def ifMirrorStructureTree(self, n1, n2):
         return self.__ifMirrorStructureTree(n1.root, n2.root)
     
+    # ------------------------------------------------------------------------------------------
+    # If two trees are having same structure or not
     def __ifSameStructureTree(self, root1, root2):
         if root1 is None and root2 is None:
             return True
@@ -463,6 +510,8 @@ class BinarySearchTree:
     def ifSameStructureTree(self, n1, n2):
         return self.__ifMirrorStructureTree(n1.root, n2.root)
     
+    # ------------------------------------------------------------------------------------------
+    # If two trees are same or not 
     def __ifSameTree(self, root1, root2):
         if root1 is None and root2 is None:
             return True
@@ -473,6 +522,8 @@ class BinarySearchTree:
     def ifSameTree(self, n1, n2):
         return self.__ifMirrorStructureTree(n1.root, n2.root)
     
+    # ------------------------------------------------------------------------------------------
+    # Is the tree foldable or not
     def isFoldable(self):
         node = self.root
         if node == None:

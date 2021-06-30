@@ -58,13 +58,14 @@ Keep coding! :)
   - <details>
     <summary>Available Methods</summary>
 
-    - delete() 
-    - insertAtFirst() 
-    - insertAtLast() 
-    - insertAtPosition() 
-    - length() 
-    - reversePrint() 
-    - show()
+    - *delete()* - Delete an element
+    - *deleteList* - Delete the entire doubly linked list
+    - *insertAtFirst()* - Inserting at first
+    - *insertAtLast()* - Insert node at last
+    - *insertAtPosition()* - Insert at a certain position
+    - *length()* - Count of nodes in our doubly linked list
+    - *reversePrint()* - Print all the elements in reverse
+    - *show()* - To print all the elements
     </details>
 <span></span>
 
@@ -74,8 +75,8 @@ Keep coding! :)
   - <details>
     <summary>Available Methods</summary>
 
-    - rotateClockwise()
-    - rotateAntiClocwise()
+    - *rotateClockwise()* - Rotate Colockwise
+    - *rotateAntiClocwise()* - Rotate AntiClockwise
     </details>
 <span></span> 
 
@@ -103,9 +104,9 @@ Keep coding! :)
   - <details>
     <summary>Available Methods</summary>
 
-    - add()
-    - search()
-    - show()
+    - *add()* - Add words to trie
+    - *search()* - Search elements in trie
+    - *show()* - Display all words in trie
     </details>
 <span></span> 
 
@@ -116,37 +117,39 @@ Keep coding! :)
   - <details>
     <summary>Available Methods</summary>
 
-    - delete() 
-    - empty() 
-    - getDiffEvenOddRows() 
-    - getLevelOfNode() 
-    - height() 
-    - ifMirrorStructureTree() 
-    - ifMirrorTree() 
-    - ifSameStructureTree() 
-    - ifSameTree() 
-    - inorderUsingStack() 
-    - insert() 
-    - isFoldable() 
-    - isIdentical() 
-    - leftSideOfTree() 
-    - levelOrderTraversal() 
-    - levelOrderTraversalLineByLine() 
-    - levelWiseSum() 
-    - maxWidth() 
-    - mirrorTree() 
-    - noOfNodes() 
-    - postorder() 
-    - preorder() 
-    - printAtGivenLevel() 
-    - printBetweenTwoLevels() 
-    - printLeaves() 
-    - recursiveSearch() 
-    - reverseLevelOrderTraversal() 
-    - rightSideOfTree() 
-    - search() 
-    - spiralOrder() 
-    - sum()
+    - *delete()* - Delete the entire tree
+    - *empty()* - Checks empty or not
+    - *getDiffEvenOddRows()* - Difference of even and odd rows
+    - *getLevelOfNode()* -Get level of data
+    - *height()* - Height of the tree
+    - *ifMirrorStructureTree()* - If two trees are mirror structure or not
+    - *ifMirrorTree()* - If two trees are mirror ot not
+    - *ifSameStructureTree()* - If two trees are having same structure or not
+    - *ifSameTree()* - If two trees are same or not
+    - *inorder* - Inorder traversal
+    - *inorderUsingStack()* - Inorder traversal using stack
+    - *insert()* - Insert the data in a BST
+    - *isFoldable()* - Is the tree foldable or not
+    - *isIdentical()* - Two trees are identical or not
+    - *leftSideOfTree()* -Left side of the tree
+    - *levelOrderTraversal()* -Print values by level order
+    - *levelOrderTraversalLineByLine()* - Level order traversal line by line
+    - *levelWiseSum()* - Sum of all data in each level
+    - *maxWidth()* - Get maximum width of the tree
+    - *mirrorTree()* - Mirror the tree
+    - *noOfNodes()* - No of nodes in the tree
+    - *noofLeafNodes* - Number of leaf nodes
+    - *postorder()* - Postorder traversal
+    - *preorder()* - Preorder Traversal
+    - *printAtGivenLevel()* - Print values only at a certain level
+    - *printBetweenTwoLevels()* - Print data between any two levels
+    - *printLeaves()* - Print leaf nodes
+    - *recursiveSearch()* - Search using recursion
+    - *reverseLevelOrderTraversal()* - Level order traversal in reverse
+    - *rightSideOfTree()* - Right side of the tree
+    - *search()* - Return true if an element exists
+    - *spiralOrder()* -Print in spiral order
+    - *sum()* - Sum of all the values
     </details>
 <span></span> 
 
@@ -158,15 +161,15 @@ Keep coding! :)
 
 # Dynamic Programming
 
-- [Edit distance](dynamic_programming/edit_distance.py)
-- [Egg drop](dynamic_programming/egg_drop.py)
-- [Fibanocci sequence](dynamic_programming/fibanocci_sequence.py)
-- [Generate parenthesis](dynamic_programming/generate_parenthesis.py) 
-- [Kadane algorithm](dynamic_programming/kadane_algorithm.py)
-- [Knapsack 0/1](dynamic_programming/knapsack01.py) 
-- [Longest common subsequence](dynamic_programming/longest_common_subsequence.py)
-- [Min no of coins](dynamic_programming/min_no_of_coins.py)
-- [Range sum query](dynamic_programming/range_sum_query.py)
+- [Edit distance](dynamic_programming/edit_distance.py) - Number of edit distance required to change one string to another
+- [Egg drop](dynamic_programming/egg_drop.py) - Minimum no of trials needed in worst case to find the floor where the egg breaks
+- [Fibanocci sequence](dynamic_programming/fibanocci_sequence.py) - Generate fibanocci sequence
+- [Generate parenthesis](dynamic_programming/generate_parenthesis.py) - Generate matched parenthesis with n number of open and closed brackets
+- [Kadane algorithm](dynamic_programming/kadane_algorithm.py) - Largest sub array problem
+- [Knapsack 0/1](dynamic_programming/knapsack01.py) - knapsack 0/1 problem
+- [Longest common subsequence](dynamic_programming/longest_common_subsequence.py) - Longest common subsequence of two strings
+- [Min no of coins](dynamic_programming/min_no_of_coins.py) - Minimum number of coins needed to make the given amount
+- [Range sum query](dynamic_programming/range_sum_query.py) - Return the sum between two indices
 
 # Searches
 

@@ -1,3 +1,4 @@
+# Minimum number of coins needed to make the given amount
 def min_no_of_coins(amount:int, coins: list) -> int:
     # DP stores the number of coin used for each amount
     # Initialize all values to amount + 1 as a dummy value

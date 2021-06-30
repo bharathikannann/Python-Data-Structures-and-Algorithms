@@ -1,3 +1,4 @@
+# Generate fibanocci sequence
 def fibanocci_sequence(n: int) -> int:
     if n<=1:
         return n

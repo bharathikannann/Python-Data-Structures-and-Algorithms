@@ -1,12 +1,10 @@
-# ### Author: [BHARATHI KANNAN N](https://github.com/bharathikannann)
+# Author: BHARATHI KANNAN N - Github: https://github.com/bharathikannann, linkedin: https://linkedin.com/in/bharathikannann 
 # 
 # ### Stack
 # 
 # A stack is an abstract data type that serves as a collection of elements, with two main principal operations:
-# 
 # - Push, which adds an element to the collection, and
 # - Pop, which removes the most recently added element.
-# 
 # The order in which elements come off a stack gives rise to its alternative name, LIFO (last in, first out).
 #Structure of the node for our linked list
 class Node:

@@ -1,5 +1,5 @@
 # Egg dropping problem
-# Minimum no of trials needed in worst case to find the floor
+# Minimum no of trials needed in worst case to find the floor where the egg breaks
 def egg_drop(eggs, floors):
     INT_MAX = 32767   
     dp = [[0] * (floors + 1) for _ in range(eggs + 1)]

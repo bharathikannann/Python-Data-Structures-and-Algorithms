@@ -1,6 +1,6 @@
-# ### Author: [BHARATHI KANNAN N](https://github.com/bharathikannann)
+# Author: BHARATHI KANNAN N - Github: https://github.com/bharathikannann, linkedin: https://linkedin.com/in/bharathikannann 
 # 
-# <big>Sorting in Linked lists</big><br>
+# Sorting in Linked lists
 # Merge sort algorithm
 
 class Node():

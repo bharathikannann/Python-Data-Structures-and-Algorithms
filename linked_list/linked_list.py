@@ -1,10 +1,9 @@
-# ### Author: [BHARATHI KANNAN N](https://github.com/bharathikannann)
-# 
+# Author: BHARATHI KANNAN N - Github: https://github.com/bharathikannann, linkedin: https://linkedin.com/in/bharathikannann 
 # ## Linked List
 # 
-# - Linked list is a linear collection of data elements whose order is not given by their physical placement in memory. Instead, each element points to the next.<br>
-# - In its most basic form, each node contains: data, and a reference<br>
-# - This structure allows for efficient insertion or removal of elements from any position in the sequence during iteration.<br>
+# - Linked list is a linear collection of data elements whose order is not given by their physical placement in memory. Instead, each element points to the next.
+# - In its most basic form, each node contains: data, and a reference
+# - This structure allows for efficient insertion or removal of elements from any position in the sequence during iteration.
 # - Linked lists are among the simplest and most common data structures. They can be used to implement several other common abstract data types, including lists, stacks, queues, etc..,
 # 
 # ### Time Complexity:
@@ -15,29 +14,6 @@
 # - Deletion: O(1)
 # - Indexing: O(n)
 # - Searching: O(n)
-# 
-# ## Available methods
-# 
-# - insertAtFirst() 
-# - insertAtPosition() 
-# - insertAtLast()
-# - delete()
-# - show()
-# - ifNodeExists()
-# - length()
-# - rotateCloclwise()
-# - rotateAntiClockwise()
-# - reverse()
-# - reverseRecursion()
-# - getMiddleElement()
-# - isFirstSecondHalfMatch()
-# - isPalindrome()
-# - deleteGreaterValuesOnRight()
-# - pairwiseSwapElements()
-# - deleteAlternateNodes()
-# - moveLastNodeToFront()
-# - getCountOfValue()
-# - deleteList()
 
 #Structure of the node for our linked list
 class Node():
@@ -117,7 +93,7 @@ class LinkedList(object):
             temp.next = newNode
     
     # ------------------------------------------------------------------------------------------
-    # Deleting the data at any position
+    # Deleting the data at any position 
     # Steps
     # 1. If head is the data to be deleted and if is none return none and if it the element to be deleted
     # change the head to the next of head by using temp node
@@ -535,6 +511,3 @@ if __name__ == '__main__':
     Delete entire list
     No element present in the list
     '''
-
-
-# <big> To refer all of these implementations in java [click here](https://github.com/bharathikannann/Data-Structures-and-Algorithms/blob/master/LinkedList/LinkedList.java) </big>
