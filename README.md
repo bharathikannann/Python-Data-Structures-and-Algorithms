@@ -1,10 +1,12 @@
 # Data Structures and Algorithms using Python 
 
-This is my repository for *Data Structures and Algorithms using Python*. All the implementations are for learning and researching purposes only.
+This is my repository for *Data Structures and Algorithms using Python*. All the implementations are for learning and research purposes only.
 
 Bharathi kannan
 <a href="https://bharathikannann.github.io/" target="_blank">Portfolio</a> <a href="https://linkedin.com/in/bharathikannann">LinkedIn</a><br>
 Keep coding! :)
+
+Show some  ❤️  by starring this repository! 
 
 # In this repository 
 ## Data structures and Algorithms
@@ -19,6 +21,10 @@ Keep coding! :)
 - [Dynamic Programming](#dynamic-programming)
 - [Searches](#searches)
 - [Sorting](#sorting)
+
+## Big O complexities
+- [Common Data structures](#common-data-structure-operations)
+- [Sorting Algorithms](#array-sorting-algorithms)
 ## Useful tools and websites
 - [Visualization Tools](#visualization-tools)
 - [Websites](#websites)
@@ -184,6 +190,35 @@ Keep coding! :)
 - [Quick sort](sorting/quick_sort.py)
 - [Selection sort](sorting/selection_sort.py)
 
+# Big O Complexities
+## Common Data Structure Operations
+|Data structure|||Time Complexity||||||Space Complexity|
+|--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |
+||Average||||Worst||||Worst|
+||Access|Search|Insertion|Deletion|Access|Search|Insertion|Deletion|
+|Array|Θ(1)|Θ(n)|Θ(n)|Θ(n)|O(1)|O(n)|O(n)|O(n)|O(n)|
+|Stack|Θ(n)|Θ(n)|Θ(1)|Θ(1)|O(n)|O(n)|O(1)|O(1)|O(n)|
+|Queue|Θ(n)|Θ(n)|Θ(1)|Θ(1)|O(n)|O(n)|O(1)|O(1)|O(n)|
+|Singly-Linked List|Θ(n)|Θ(n)|Θ(1)|Θ(1)|O(n)|O(n)|O(1)|O(1)|O(n)|
+|Doubly-Linked List|Θ(n)|Θ(n)|Θ(1)|Θ(1)|O(n)|O(n)|O(1)|O(1)|O(n)|
+|Hash Table|N/A|Θ(1)|Θ(1)|Θ(1)|N/A|O(n)|O(n)|O(n)|O(n)|
+|Binary Search Tree|Θ(log(n))|Θ(log(n))|Θ(log(n))|Θ(log(n))|O(n)|O(n)|O(n)|O(n)|O(n)|
+|Red-Black Tree|Θ(log(n))|Θ(log(n))|Θ(log(n))|Θ(log(n))|O(log(n))|O(log(n))|O(log(n))|O(log(n))|O(n)|
+|AVL Tree|Θ(log(n))|Θ(log(n))|Θ(log(n))|Θ(log(n))|O(log(n))|O(log(n))|O(log(n))|O(log(n))|O(n)|
+<hr>
+
+
+## Array Sorting Algorithms
+
+|Algorithm|Time Complexity|||Space Complexity|
+|--- |--- |--- |--- |--- |
+||Best|Average|Worst|Worst|
+|Quicksort|Ω(n log(n))|Θ(n log(n))|O(n^2)|O(log(n))|
+|Mergesort|Ω(n log(n))|Θ(n log(n))|O(n log(n))|O(n)|
+|Bubble Sort|Ω(n)|Θ(n^2)|O(n^2)|O(1)|
+|Insertion Sort|Ω(n)|Θ(n^2)|O(n^2)|O(1)|
+|Selection Sort|Ω(n^2)|Θ(n^2)|O(n^2)|O(1)|
+
 # Useful Tools and Websites
 ## Visualization Tools 
 - [Data Structure Visualizations](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html) -Interactive animations for a variety of data structures and algorithms
@@ -191,6 +226,7 @@ Keep coding! :)
 - [Sorting Algorithms Visualization](https://www.toptal.com/developers/sorting-algorithms) - Simple animations for sorting algorithms
 - [A Visual Guide to Graph Traversal Algorithms](https://workshape.github.io/visual-graph-algorithms/) - This resource is interactive and readers can use the visualisations to see how the algorithms can be applied to search graphs and solve certain problems. 
 - [Algorithm Visualizer](https://algorithm-visualizer.org/) - It is an interactive onlineplatform that visualizas algorithsm from code
+- [Hacker Earth](https://www.hackerearth.com/practice/algorithms/sorting/quick-sort/tutorial/) - Use Visualizer tab in each sorting algorithms
 
 ## Websites
 - [Geeks for geeks](https://www.geeksforgeeks.org/data-structures/)
@@ -211,4 +247,3 @@ Keep coding! :)
 
 ## Motivation
 This repo is inspired from my previous repo on [Data structures and Algorithms in Java](https://github.com/bharathikannann/Java-Data-Structures-and-Algorithms)
-
