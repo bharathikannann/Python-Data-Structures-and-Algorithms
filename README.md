@@ -1,23 +1,13 @@
-# Data Structures and Algorithms using Python <!-- omit in toc -->
+# Data Structures and Algorithms using Python 
 
 This is my repository for *Data Structures and Algorithms using Python*. All the implementations are for learning and researching purposes only.
 
 Bharathi kannan
-<a href="https://bharathikannann.github.io/" target="_blank">Portfolio</a><br>
+<a href="https://bharathikannann.github.io/" target="_blank">Portfolio</a> <a href="https://linkedin.com/in/bharathikannann">LinkedIn</a><br>
 Keep coding! :)
-<!-- # Data Structures
 
-> A data structure is a particular way of organizing and storing data in a computer so that it can be accessed and modified efficiently.
-
-More precisely, a data structure is a collection of data values, the relationships among them, and the functions or operations that can be applied to the data.
-
-# Algorithms
-
-> Algorithm is a finite sequence of well-defined, computer-implementable instructions, typically to solve a class of specific problems or to perform a computation.
-
-Algorithms are always unambiguous and are used as specifications for performing calculations, data processing, automated reasoning, and other tasks.
- -->
-# Table of Contents <!-- omit in toc -->
+# In this repository 
+## Data structures and Algorithms
 - [Linked List](#linked-list)
 - [Stack](#stack)
 - [Queue](#queue)
@@ -25,9 +15,15 @@ Algorithms are always unambiguous and are used as specifications for performing 
 - [Heap](#heap)
 - [Trie](#trie)
 - [Tree](#tree)
+- [Graph](#graph) -> In progress
 - [Dynamic Programming](#dynamic-programming)
 - [Searches](#searches)
 - [Sorting](#sorting)
+## Useful tools and websites
+- [Visualization Tools](#visualization-tools)
+- [Websites](#websites)
+- [Cheetsheets](#cheatsheets)
+- [Free online courses](#free-online-courses)
 
 # Linked List
 
@@ -35,26 +31,26 @@ Algorithms are always unambiguous and are used as specifications for performing 
   - <details>
     <summary>Available Methods</summary>
     
-    - delete() 
-    - deleteAlternateNodes() 
-    - deleteGreaterValuesOnRight() 
-    - deleteList() 
-    - getCountOfValue() 
-    - getMiddleElement() 
-    - ifNodeExists() 
-    - insertAtFirst() 
-    - insertAtLast() 
-    - insertAtPosition() 
-    - isFirstSecondHalfMatch() 
-    - isPalindrome() 
-    - length() 
-    - moveLastNodeToFront() 
-    - pairwiseSwapElements() 
-    - reverse() 
-    - reverseRecursion() 
-    - rotateAntiClockwise() 
-    - rotateCloclwise() 
-    - show()
+    - *delete()* - Deleting the data at any position
+    - *deleteAlternateNodes()* - Delete alternate nodes
+    - *deleteGreaterValuesOnRight()* - Delete an element if it's right node is grater than it
+    - *deleteList()* - Deleting the entire linked list
+    - *getCountOfValue()* - Get count of a data in linkedlist
+    - *getMiddleElement()* - Get the middle element
+    - *ifNodeExists()* - If a data exists in any node (Search method)
+    - *insertAtFirst()* - Inserting the element at the start of the linked list
+    - *insertAtLast()* - Insert the data at last
+    - *insertAtPosition()* - Inserting the data at a specific position. 
+    - *isFirstSecondHalfMatch()* - Does First half and second half match
+    - *isPalindrome()* - Return true if a linked list is palindrome
+    - *length()* - Length of the LinkedList
+    - *moveLastNodeToFront()* - Move last node to front
+    - *pairwiseSwapElements()* - Swapping pairwise elements
+    - *reverse()* - Reverse the linked list
+    - *reverseRecursion()* - Same reverse function usinf recursion
+    - *rotateAntiClockwise()* - Rotate Anticlockwise
+    - *rotateCloclwise()* - Clockwise in linkedlist 
+    - *show()* - Printing all the elements of the linked list
     </details>
 <span></span> 
 
@@ -155,6 +151,10 @@ Algorithms are always unambiguous and are used as specifications for performing 
 <span></span> 
 
 - [AVL Tree](trees/avl_tree.py)
+- [Red Black Tree](trees/red_black_tree.py)
+
+# Graph 
+>In progress
 
 # Dynamic Programming
 
@@ -180,3 +180,32 @@ Algorithms are always unambiguous and are used as specifications for performing 
 - [Merge Sort](sorting/merge_sort.py)
 - [Quick sort](sorting/quick_sort.py)
 - [Selection sort](sorting/selection_sort.py)
+
+# Useful Tools and Websites
+## Visualization Tools 
+- [Data Structure Visualizations](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html) -Interactive animations for a variety of data structures and algorithms
+- [Visualgo](https://visualgo.net/) Visualizaing data structures and algorithms
+- [Sorting Algorithms Visualization](https://www.toptal.com/developers/sorting-algorithms) - Simple animations for sorting algorithms
+- [A Visual Guide to Graph Traversal Algorithms](https://workshape.github.io/visual-graph-algorithms/) - This resource is interactive and readers can use the visualisations to see how the algorithms can be applied to search graphs and solve certain problems. 
+- [Algorithm Visualizer](https://algorithm-visualizer.org/) - It is an interactive onlineplatform that visualizas algorithsm from code
+
+## Websites
+- [Geeks for geeks](https://www.geeksforgeeks.org/data-structures/)
+- [Data structures Roadmap](https://coggle.it/diagram/W5E5tqYlrXvFJPsq/t/master-the-interview-click-here-for-course-link/c25f98c73a03f5b1107cd0e2f4bce29c9d78e31655e55cb0b785d56f0036c9d1) - zerotomastery
+- [Free Code Camp](https://www.freecodecamp.org/)
+- [W3Schools](https://www.w3schools.in/data-structures-tutorial/intro/)
+- [Khan Academy](https://www.khanacademy.org/computing/computer-science/algorithms) - Introductory computer science algorithms, including searching, sorting, recursion, and graph theory
+- [List of Data structures](https://en.wikipedia.org/wiki/List_of_data_structures) - Wikipedia
+
+## Cheatsheets
+- [Big O cheatsheet](https://www.bigocheatsheet.com/) - This webpage covers the space and time Big-O complexities of common algorithms used in Computer Science
+- [Algorithms and Data structures cheatsheet](https://algs4.cs.princeton.edu/cheatsheet/) - Algorithms 4th edition, Robert Sedgewick and Kevin Wayn, Princeton university
+- [Reddit thread](https://www.reddit.com/r/learnprogramming/comments/3gpvyx/algorithms_and_data_structures_cheat_sheets/)
+
+## Free Online Courses
+- [Algorithms, Part I - Coursera](https://www.coursera.org/learn/algorithms-part1) - Part I covers elementary data structures, sorting, and searching algorithms
+- [Algorithms, Part II - Coursera](https://www.coursera.org/learn/algorithms-part2) - Part II focuses on graph- and string-processing algorithms
+
+## Motivation
+This repo is inspired from my previous repo on [Data structures and Algorithms in Java](https://github.com/bharathikannann/Java-Data-Structures-and-Algorithms)
+
