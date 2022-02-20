@@ -223,7 +223,7 @@ Show some  ❤️  by starring this repository!
 ## Visualization Tools 
 - [Data Structure Visualizations](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html) -Interactive animations for a variety of data structures and algorithms
 - [Visualgo](https://visualgo.net/) Visualizaing data structures and algorithms
-- [Interactive Visualizations of Graph Algorithms](https://algorithms.discrete.ma.tum.de/) Spanning trees, Shortest paths, Network flow and Routing.
+- [Interactive Visualizations of Graph Algorithms](https://algorithms.discrete.ma.tum.de/) - Spanning trees, Shortest paths, Network flow and Routing.
 - [Sorting Algorithms Visualization](https://www.toptal.com/developers/sorting-algorithms) - Simple animations for sorting algorithms
 - [A Visual Guide to Graph Traversal Algorithms](https://workshape.github.io/visual-graph-algorithms/) - This resource is interactive and readers can use the visualisations to see how the algorithms can be applied to search graphs and solve certain problems. 
 - [Algorithm Visualizer](https://algorithm-visualizer.org/) - It is an interactive onlineplatform that visualizas algorithsm from code
